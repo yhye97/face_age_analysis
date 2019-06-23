@@ -33,7 +33,10 @@ asian actors, asian actress, white actors, white actress list를 출력해주는
 동안 유무를 판단하기 위해서 Celebrity의 Face Api 나이와 실제 나이를 비교해야합니다. 이제 사진 url와 생일 정보가 중요하지 않으므로 이를 제외하고 celebrity의 이름 (name), 실제 나이 (real_age), face Api 를 통해 도출한 나이 (faceappi_age), face API 나이 - 실제 나이 (dif)를 새로운 csv에 저장했습니다. <br>
 
 ## 6. 결론
-
+![realage](https://user-images.githubusercontent.com/17666783/59972025-4e380900-95c2-11e9-9cb8-1b7afd930d25.png)
+<br>
+![difav](https://user-images.githubusercontent.com/17666783/59972027-5728da80-95c2-11e9-82b1-1032257fee42.png)
+<br>
 분석 결과는 다음과 같습니다. <br>
 dif: Asian (Asian Actors, Asian Actress, Asian Celebrities) 들의 FaceAPi 나이 - 실제나이 <br>
 dif2: (Caucasian Actors, Caucasian Actress, Caucasian Celebrities)들의 FaceAPI 나이 - 실제 나이를 뺀 값으로 <br>
@@ -48,7 +51,7 @@ Caucasians: <br>
 Real Age Average: 39.391807658058774 <br>
 Dif Age Average : -8.269813000890473 <br>
 <br>
-### **Dif Age Average는  -8.494137353433835 <  -8.269813000890473 인 관계로
-### Asians가 Caucasians들 보다 동안이다 라는 가설이 참인 것을 알 수 있습니다.** <br>
+### Dif Age Average는  -8.494137353433835 <  -8.269813000890473 인 관계로
+### Asians가 Caucasians들 보다 동안이다 라는 가설이 참인 것을 알 수 있습니다. <br>
 
 하지만 dataset이 좀 더 다양해지고 많아진다면 결과는 바뀔 수도 있습니다.
